@@ -29,7 +29,7 @@ sleep 2
 
 7z e install-crossover-21.1.0.bin.7z.001
 
-
+rm -rf install-crossover-21.1.0.bin.7z.*
 
 # Dar permissão no arquivo de instalação
 
@@ -89,3 +89,10 @@ sleep 2
 
 7z e Microsoft_Office_2013.cxarchive.7z.001
 
+
+echo "Limpando arquivos desnecessarios"
+
+rm -rf Microsoft_Office_2013.cxarchive.7z.*
+
+
+echo "Importe o arquivo do office para dentro do grafana"
